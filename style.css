@@ -1,0 +1,86 @@
+body {
+     margin: 0px;
+}
+
+main {
+     width: 70%;
+     margin: auto;
+}
+
+main h1 {
+     font-size: 2.5em;
+     font-family: sans-serif;
+}
+
+main label {
+     font-size: 1.3em;
+     font-family: sans-serif;
+     display: block;
+     margin-top: 2%;
+}
+
+main .input {
+     width: 100%;
+     height: 30px;
+     border-radius: 10px;
+     border: 1px solid #eaeaea;
+     margin-top: 1%;
+}
+
+main button {
+     width: 100%;
+     margin-top: 2%;
+     height: 30px;
+     cursor: pointer;
+     border-radius: 5px;
+     background-color: #f0f0f0;
+     border: 1px solid #333;
+}
+
+main table {
+     width: 100%;
+     margin-top: 5%;
+     font-family: sans-serif;
+     text-align: left;
+     border-collapse: collapse;
+}
+
+main table td{
+     border-bottom: 1px solid #ddd;
+     border-top: 1px solid #ddd;
+     word-break: break-all;
+}
+
+main table td button{ 
+     width: auto;
+     background-color: rgb(221, 56, 56);
+     color: white;
+     border: 0px;
+}
+
+.goodInfo {
+     width: 90%;
+     height: 30px;
+     background-color: #2AA345;
+     color: white;
+     font-family: sans-serif;
+     margin: auto;
+     font-size: 0.5em;
+     text-align: center;
+     line-height: 30px;
+}
+
+@media only screen 
+     and (min-width : 200px)
+     and (max-width : 568px)
+     and (orientation : portrait){
+          main form button {
+               margin-top: 10%;
+          }
+
+          main label {font-size: 1em;}
+
+          main table {
+               margin-top: 20%;
+          }
+}
